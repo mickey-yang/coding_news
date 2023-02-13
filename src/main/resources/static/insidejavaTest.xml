@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator>
+    <link href="https://inside.java/feed.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://inside.java/" rel="alternate" type="text/html"/>
+    <updated>2023-01-29T12:18:47+00:00</updated>
+    <id>https://inside.java/feed.xml</id>
+    <title type="html">insidejava</title>
+    <subtitle>News and views from members of the Java team at Oracle</subtitle>
+    <entry>
+        <title type="html">Java Modules in Real Life</title>
+        <link href="https://inside.java/2023/01/29/java-modules-in-real-life/" rel="alternate" type="text/html"
+              title="Java Modules in Real Life"/>
+        <published>2023-01-29T00:00:00+00:00</published>
+        <updated>2023-01-29T00:00:00+00:00</updated>
+        <id>https://inside.java/2023/01/29/Java-Modules-In-Real-Life</id>
+        <content type="html" xml:base="https://inside.java/2023/01/29/java-modules-in-real-life/">&lt;iframe width=&quot;760&quot;
+            height=&quot;428&quot; src=&quot;https://www.youtube.com/embed/UqnwQp1uHuY&quot; title=&quot;YouTube video
+            player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write;
+            encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+            &lt;p&gt;&lt;em&gt;Get advice on why, when, when not, and how to use Java modules in real life for your Java
+            projects.&lt;/em&gt;&lt;/p&gt;
+        </content>
+        <author>
+            <name>[&quot;NicolaiParlog&quot;]</name>
+        </author>
+        <category term="Modules"/>
+        <summary type="html">Get advice on why, when, when not, and how to use Java modules in real life for your Java
+            projects.
+        </summary>
+    </entry>
+    <entry>
+        <title type="html">Quality Outreach Heads-up - JDK 21: JMX Subject Delegation &amp;amp; Fine-grained Security
+            Deprecation
+        </title>
+        <link href="https://inside.java/2023/01/27/heads-up/" rel="alternate" type="text/html"
+              title="Quality Outreach Heads-up - JDK 21: JMX Subject Delegation &amp;amp; Fine-grained Security Deprecation"/>
+        <published>2023-01-27T00:00:00+00:00</published>
+        <updated>2023-01-27T00:00:00+00:00</updated>
+        <id>https://inside.java/2023/01/27/-Heads-Up</id>
+        <content type="html" xml:base="https://inside.java/2023/01/27/heads-up/">&lt;p&gt;&lt;img class=&quot;webfeedsFeaturedVisual&quot;
+            style=&quot;display: none;&quot; src=&quot;/images/thumbnail/code.jpg&quot; /&gt;&lt;/p&gt;
+
+            &lt;p&gt;&lt;i&gt;The &lt;a href=&quot;https://wiki.openjdk.java.net/display/quality/Quality+Outreach&quot;&gt;OpenJDK
+            Quality Group&lt;/a&gt; is promoting the testing of FOSS projects with OpenJDK builds as a way to improve
+            the overall quality of the release. This heads-up is part of a &lt;a href=&quot;https://mail.openjdk.org/pipermail/quality-discuss/2023-January/001103.html&quot;&gt;regular
+            communication&lt;/a&gt; sent to the projects involved. To learn more about the program, and how-to join,
+            please check &lt;a href=&quot;https://wiki.openjdk.java.net/display/quality/Quality+Outreach&quot;&gt;here&lt;/a&gt;.&lt;/i&gt;&lt;/p&gt;
+
+            &lt;h3 id=&quot;jdk-21-jmx-subject-delegation--fine-grained-security-deprecation&quot;&gt;JDK 21: JMX
+            Subject Delegation &amp;amp; Fine-grained Security Deprecation&lt;/h3&gt;
+
+            &lt;p&gt;JMX has some features that rely on Security Manager APIs which are deprecated for removal (see &lt;a
+            href=&quot;https://openjdk.org/jeps/411&quot;&gt;JEP 411&lt;/a&gt;). These features are &lt;code class=&quot;language-plaintext
+            highlighter-rouge&quot;&gt;&quot;Subject Delegation&quot;&lt;/code&gt; and &lt;code class=&quot;language-plaintext
+            highlighter-rouge&quot;&gt;&quot;Fine-grained Security&quot;&lt;/code&gt;, which both seem to be generally
+            unused, and would require significant investment to implement without touching the deprecated APIs. As a
+            consequence, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;Subject Delegation&quot;&lt;/code&gt;
+            is being proposed for deprecation in JDK 21 via &lt;a href=&quot;https://bugs.openjdk.org/browse/JDK-8298966&quot;&gt;JDK-8298966&lt;/a&gt;.&lt;/p&gt;
+
+            &lt;p&gt;Fine-grained Security is also being considered for deprecation at the same time. This &lt;a href=&quot;https://docs.oracle.com/en/java/javase/19/jmx/fine-grained-security-example.html&quot;&gt;feature&lt;/a&gt;
+            has allowed configuration of a security
+            policy to restrict or permit access to specific MBean actions. It is expected that this feature is generally
+            unused, possibly because there
+            is simply no demand for such detailed control, and that it is too complex to create and maintain the
+            policies.&lt;/p&gt;
+
+            &lt;center&gt;~&lt;/center&gt;
+        </content>
+        <author>
+            <name>[&quot;DavidDelabassee&quot;]</name>
+        </author>
+        <category term="JDK 21"/>
+        <summary type="html">This Heads-Up is part of the regular communication sent to the projects involved, it covers
+            some deprecation related to JMX.
+        </summary>
+    </entry>
+    <entry>
+        <title type="html">JDK 21 - Performance Improvements Revealed</title>
+        <link href="https://inside.java/2023/01/26/java-21-performance-improvements-revealed/" rel="alternate"
+              type="text/html" title="JDK 21 - Performance Improvements Revealed"/>
+        <published>2023-01-26T06:00:00+00:00</published>
+        <updated>2023-01-26T06:00:00+00:00</updated>
+        <id>https://inside.java/2023/01/26/Java-21-Performance-Improvements-Revealed</id>
+        <content type="html" xml:base="https://inside.java/2023/01/26/java-21-performance-improvements-revealed/">&lt;p&gt;&lt;img
+            class=&quot;webfeedsFeaturedVisual&quot; style=&quot;display: none;&quot; src=&quot;/images/thumbnail/DukeReadingDocuments.png&quot;
+            /&gt;&lt;/p&gt;
+        </content>
+        <author>
+            <name>[&quot;Per-AkeMinborg&quot;]</name>
+        </author>
+        <category term="JDK 21"/>
+        <category term="Core Libraries"/>
+        <category term="Performance"/>
+        <summary type="html">In Java 21, old code might run significantly faster due to recent internal performance
+            optimizations made in the Java Core Libraries. In this article, we will take a closer look at some of these
+            changes and see how much faster your favorite programming language has become. Buckle up, for we are about
+            to run at full speed!
+        </summary>
+    </entry>
+    <entry>
+        <title type="html">Tutorial - The Java I/O API</title>
+        <link href="https://inside.java/2023/01/26/java-io-tutorial/" rel="alternate" type="text/html"
+              title="Tutorial - The Java I/O API"/>
+        <published>2023-01-26T00:00:00+00:00</published>
+        <updated>2023-01-26T00:00:00+00:00</updated>
+        <id>https://inside.java/2023/01/26/Java-IO-Tutorial</id>
+        <content type="html" xml:base="https://inside.java/2023/01/26/java-io-tutorial/">&lt;p&gt;&lt;img class=&quot;webfeedsFeaturedVisual&quot;
+            style=&quot;display: none;&quot; src=&quot;/images/thumbnail/DukeReadingDocuments.png&quot; /&gt;&lt;/p&gt;
+        </content>
+        <author>
+            <name>[&quot;JosePaumard&quot;]</name>
+        </author>
+        <category term="Core Libraries"/>
+        <summary type="html">Java I/O is a set of classes that give access to external resources including file systems
+            and the network. This tutorial will guide you through the Java I/O API, presenting the basic notions you
+            need to understand in order to start writing Java code that takes advantage of the API....
+        </summary>
+    </entry>
+    <entry>
+        <title type="html">ZGC - The Future of Low-Latency Garbage Collection Is Here</title>
+        <link href="https://inside.java/2023/01/25/zgc/" rel="alternate" type="text/html"
+              title="ZGC - The Future of Low-Latency Garbage Collection Is Here"/>
+        <published>2023-01-25T00:00:00+00:00</published>
+        <updated>2023-01-25T00:00:00+00:00</updated>
+        <id>https://inside.java/2023/01/25/ZGC</id>
+        <content type="html" xml:base="https://inside.java/2023/01/25/zgc/">&lt;iframe width=&quot;760&quot; height=&quot;428&quot;
+            src=&quot;https://www.youtube.com/embed/bLJJ3CY1aE8&quot; title=&quot;YouTube video player&quot;
+            frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+            picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+            &lt;p&gt;&lt;em&gt;The Z Garbage Collector (ZGC) is a scalable low-latency garbage collector providing
+            sub-millisecond max pause times. Get an overview of the design principles behind ZGC, how it performs, and
+            how to best use it to reduce latency for your application. We also look at the ongoing work to make ZGC a
+            generational garbage collector.&lt;/em&gt;&lt;/p&gt;
+        </content>
+        <author>
+            <name>[&quot;ErikOsterlund&quot;]</name>
+        </author>
+        <category term="GC"/>
+        <summary type="html">The Z Garbage Collector (ZGC) is a scalable low-latency garbage collector providing
+            sub-millisecond max pause times. Get an overview of the design principles behind ZGC, how it performs, and
+            how to best use it to reduce latency for your application. We also look at the ongoing work to make ZGC a
+            generational garbage collector.
+        </summary>
+    </entry>
+    <entry>
+        <title type="html">On Markdown in (Java) documentation</title>
+        <link href="https://inside.java/2023/01/24/on-markdown/" rel="alternate" type="text/html"
+              title="On Markdown in (Java) documentation"/>
+        <published>2023-01-24T00:00:00+00:00</published>
+        <updated>2023-01-24T00:00:00+00:00</updated>
+        <id>https://inside.java/2023/01/24/On-Markdown</id>
+        <content type="html" xml:base="https://inside.java/2023/01/24/on-markdown/">&lt;p&gt;&lt;img class=&quot;webfeedsFeaturedVisual&quot;
+            style=&quot;display: none;&quot; src=&quot;/images/thumbnail/DukeReadingDocuments.png&quot; /&gt;&lt;/p&gt;
+        </content>
+        <author>
+            <name>[&quot;JonathanGibbons&quot;]</name>
+        </author>
+        <summary type="html">As some folk have already noticed, we are investigating the possibility of supporting
+            Markdown in Java documentation comments. Why are we doing this? It has been an informal request for a while
+            now, since the emergence of Markdown as a popular authoring format, and so we're doing it for all the same
+            reasons that authors prefer to use Markdown instead of raw HTML in standalone documentation. In particular,
+            using raw HTML is somewhat clunky and visually intrusive, for simple formatting tasks, like font changes,
+            lists, and tables, that are often desired in API documentation...
+        </summary>
+    </entry>
+    <entry>
+        <title type="html">Lifetimes in the Foreign Function &amp;amp; Memory API</title>
+        <link href="https://inside.java/2023/01/23/lifetimes-in-the-ffm-api/" rel="alternate" type="text/html"
+              title="Lifetimes in the Foreign Function &amp;amp; Memory API"/>
+        <published>2023-01-23T00:00:00+00:00</published>
+        <updated>2023-01-23T00:00:00+00:00</updated>
+        <id>https://inside.java/2023/01/23/Lifetimes-in-the-FFM-API</id>
+        <content type="html" xml:base="https://inside.java/2023/01/23/lifetimes-in-the-ffm-api/">&lt;p&gt;&lt;img class=&quot;webfeedsFeaturedVisual&quot;
+            style=&quot;display: none;&quot; src=&quot;/images/thumbnail/DukeReadingDocuments.png&quot; /&gt;&lt;/p&gt;
+        </content>
+        <author>
+            <name>[&quot;MaurizioCimadamore&quot;]</name>
+        </author>
+        <category term="Panama"/>
+        <summary type="html">The Foreign Function &amp; Memory API (FFM in short) in centered around the idea of
+            explicit lifetime management. That is, memory segments allocated using the FFM API are assigned a lifetime
+            (known as SegmentScope), which determines when can the segments be accessed (e.g. when is their backing
+            region of memory still available), and by whom (e.g. which threads can access the memory segment). In this
+            document we show why existing approaches to explicit memory management such as malloc/free are not
+            sufficient for the FFM API, and how reasoning about lifetimes helps programs using the FFM API avoid pesky
+            temporal bugs (also known as use-after-free).
+        </summary>
+    </entry>
+    <entry>
+        <title type="html">Java’s Plans for 2023 - Inside Java Newscast #40</title>
+        <link href="https://inside.java/2023/01/19/newscast-40/" rel="alternate" type="text/html"
+              title="Java’s Plans for 2023 - Inside Java Newscast #40"/>
+        <published>2023-01-19T00:00:00+00:00</published>
+        <updated>2023-01-19T00:00:00+00:00</updated>
+        <id>https://inside.java/2023/01/19/Newscast-40</id>
+        <content type="html" xml:base="https://inside.java/2023/01/19/newscast-40/">&lt;iframe width=&quot;760&quot;
+            height=&quot;428&quot; src=&quot;https://www.youtube.com/embed/-sfB40FHfJE&quot; title=&quot;YouTube video
+            player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write;
+            encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+            &lt;p&gt;&lt;em&gt;A summary of what happened in 2022 and what will probably happen in 2023 for Projects
+            Amber (pattern matching, relaxed &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt;
+            and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;super()&lt;/code&gt; and much, much
+            more), Galahad &amp;amp; Leyden (foundation and first steps), Lilliput (64bit object headers; on to 32bit),
+            Loom (previewed virtual threads, incubated structured concurrency and scoped values; work on finalizing all
+            that plus less pinning), Panama (vector API is stable and waits for Valhalla, foreign APIs are previewing;
+            FFM API improvements and work towards finalization), and Valhalla (EA builds; revisions).&lt;/em&gt;&lt;/p&gt;
+
+            &lt;p&gt;Make sure to check the &lt;a href=&quot;https://www.youtube.com/watch?v=-sfB40FHfJE&quot;&gt;show-notes&lt;/a&gt;.&lt;/p&gt;
+        </content>
+        <author>
+            <name>[&quot;NicolaiParlog&quot;]</name>
+        </author>
+        <category term="Amber"/>
+        <category term="Loom"/>
+        <category term="Panama"/>
+        <category term="Leyden"/>
+        <category term="Valhalla"/>
+        <summary type="html">A summary of what happened in 2022 and what will probably happen in 2023 for Projects Amber
+            (pattern matching, relaxed `main` and `super()` and much, much more), Galahad &amp; Leyden (foundation and
+            first steps), Lilliput (64bit object headers; on to 32bit), Loom (previewed virtual threads, incubated
+            structured concurrency and scoped values; work on finalizing all that plus less pinning), Panama (vector API
+            is stable and waits for Valhalla, foreign APIs are previewing; FFM API improvements and work towards
+            finalization), and Valhalla (EA builds; revisions).
+        </summary>
+    </entry>
+    <entry>
+        <title type="html">Java 20 - An Almost Infinite Memory Segment Allocator</title>
+        <link href="https://inside.java/2023/01/18/an-almost-infinite-memory-segment-allocator/" rel="alternate"
+              type="text/html" title="Java 20 - An Almost Infinite Memory Segment Allocator"/>
+        <published>2023-01-18T00:00:00+00:00</published>
+        <updated>2023-01-18T00:00:00+00:00</updated>
+        <id>https://inside.java/2023/01/18/An-Almost-Infinite-Memory-Segment-Allocator</id>
+        <content type="html" xml:base="https://inside.java/2023/01/18/an-almost-infinite-memory-segment-allocator/">&lt;p&gt;&lt;img
+            class=&quot;webfeedsFeaturedVisual&quot; style=&quot;display: none;&quot; src=&quot;/images/thumbnail/DukeReadingDocuments.png&quot;
+            /&gt;&lt;/p&gt;
+        </content>
+        <author>
+            <name>[&quot;Per-AkeMinborg&quot;]</name>
+        </author>
+        <category term="Panama"/>
+        <category term="JDK 20"/>
+        <summary type="html">Wouldn’t it be cool if you could allocate an infinite amount of memory? In this article, we
+            will learn how memory-mapped files can be leveraged as an under-carriage for providing a memory-allocating
+            arena that can return an almost infinite amount of native memory without ever throwing an OutOfMemoryError.
+        </summary>
+    </entry>
+    <entry>
+        <title type="html">Informational JEP: Preview Features: A Look Back, and A Look Ahead</title>
+        <link href="https://inside.java/2023/01/18/jepdraft-previewlookahead/" rel="alternate" type="text/html"
+              title="Informational JEP: Preview Features: A Look Back, and A Look Ahead"/>
+        <published>2023-01-18T00:00:00+00:00</published>
+        <updated>2023-01-18T00:00:00+00:00</updated>
+        <id>https://inside.java/2023/01/18/JEPDraft-PreviewLookAhead</id>
+        <content type="html" xml:base="https://inside.java/2023/01/18/jepdraft-previewlookahead/">&lt;p&gt;&lt;img
+            class=&quot;webfeedsFeaturedVisual&quot; style=&quot;display: none;&quot; src=&quot;/images/thumbnail/jep.jpg&quot;
+            /&gt;&lt;/p&gt;
+        </content>
+        <author>
+            <name>[&quot;AlexBuckley&quot;]</name>
+        </author>
+        <summary type="html">It's been over four years since we introduced the idea of preview features in JEP 12, so
+            it's a good time to review how they've worked out, and see if anything needs tweaking as we move forward.
+        </summary>
+    </entry>
+</feed>
