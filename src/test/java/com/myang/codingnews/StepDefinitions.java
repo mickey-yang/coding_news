@@ -49,6 +49,8 @@ public class StepDefinitions {
             articleList = RssFeedReader.getArticlesListFromRssUrl(url);
         } catch (Exception e) {
             String actualMesasge = e.getMessage();
+            System.out.println(actualMesasge);
+            System.out.println(exceptionMessage);
             assertTrue(actualMesasge.contains(exceptionMessage));
         }
     }

@@ -18,4 +18,5 @@ Feature: Convert Rss feeds to Article objects
       | url                                                              | message       |
       | "https://javarevisited.blogspot.com/feeds/posts/default?alt=rss" | "Invalid XML" |
       | "https://spring.io/blog.atom"                                    | "is null"     |
+      | "randomstring"                                                   | "no protocol" |
 
