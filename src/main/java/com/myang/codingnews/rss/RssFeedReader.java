@@ -16,7 +16,6 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.time.ZoneId;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import java.util.zip.GZIPInputStream;
 
@@ -126,7 +125,7 @@ public class RssFeedReader {
         Article article = new Article();
         article.setArticleTitle(syndEntry.getTitle());
         article.setAuthorName(syndEntry.getAuthor());
-        article.setPublished_date(syndEntry.getPublishedDate().toInstant()
+        article.setArticlePublishedDate(syndEntry.getPublishedDate().toInstant()
                 .atZone(ZoneId.systemDefault())
                 .toLocalDate());
         article.setArticleLink(syndEntry.getLink());

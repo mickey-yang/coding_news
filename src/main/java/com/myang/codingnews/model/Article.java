@@ -3,7 +3,6 @@ package com.myang.codingnews.model;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
-import org.springframework.stereotype.Controller;
 
 import java.time.LocalDate;
 
@@ -28,7 +27,7 @@ public class Article {
     private String authorName;
 
     @Column(name = "ARTICLE_PUBLISHED_DATE")
-    private LocalDate published_date;
+    private LocalDate articlePublishedDate;
 
     @Column(name = "ARTICLE_LINK")
     private String articleLink;
@@ -45,7 +44,7 @@ public class Article {
         this.source = source;
         this.articleTitle = articleTitle;
         this.authorName = authorName;
-        this.published_date = published_date;
+        this.articlePublishedDate = published_date;
         this.articleLink = articleLink;
         this.articleDescription = articleDescription;
     }
@@ -53,7 +52,7 @@ public class Article {
     // Constructor for copying
 
     public Article(Article a) {
-        this(a.articleId, a.source, a.articleTitle, a.authorName, a.published_date, a.articleLink, a.articleDescription);
+        this(a.articleId, a.source, a.articleTitle, a.authorName, a.articlePublishedDate, a.articleLink, a.articleDescription);
     }
 
     // Getters and Setters
@@ -78,12 +77,12 @@ public class Article {
         this.authorName = authorName;
     }
 
-    public LocalDate getPublished_date() {
-        return published_date;
+    public LocalDate getArticlePublishedDate() {
+        return articlePublishedDate;
     }
 
-    public void setPublished_date(LocalDate published_date) {
-        this.published_date = published_date;
+    public void setArticlePublishedDate(LocalDate articlePublishedDate) {
+        this.articlePublishedDate = articlePublishedDate;
     }
 
     public String getArticleLink() {
