@@ -8,7 +8,10 @@ This project is a news aggregation website for coding-related news. The goal is 
 
 ## Technologies
 
-Server: Java 17 - Spring Boot 3
+Issue Tracking: [Jira](https://myang.atlassian.net/jira/software/projects/CN/boards/1)
+
+Backend: Java 17 - Spring Boot 3
+
 
 ## User Instructions
 
@@ -20,3 +23,7 @@ TBD
 ### *Feb 13, 2023*
 
 Set up project with Spring Initializer
+
+### *Apr 15, 2023* 
+
+Add base repositories 
