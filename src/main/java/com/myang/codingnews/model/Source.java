@@ -21,9 +21,6 @@ public class Source {
     @Column(name = "SOURCE_URL")
     private URL sourceUrl;
 
-    @Column(name = "SOURCE_IMG_URL")
-    private URL sourceImgUrl;
-
     @OneToMany(mappedBy = "source")
     private Set<Article> articleSet;
 
@@ -59,14 +56,6 @@ public class Source {
 
     public void setSourceUrl(URL sourceUrl) {
         this.sourceUrl = sourceUrl;
-    }
-
-    public URL getSourceImgUrl() {
-        return sourceImgUrl;
-    }
-
-    public void setSourceImgUrl(URL sourceImgUrl) {
-        this.sourceImgUrl = sourceImgUrl;
     }
 
     public Set<Article> getArticleSet() {

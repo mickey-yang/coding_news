@@ -129,9 +129,9 @@ public class RssFeedReader {
                 .atZone(ZoneId.systemDefault())
                 .toLocalDate());
         article.setArticleLink(syndEntry.getLink());
-        // truncate article description
         String description = syndEntry.getDescription().getValue();
-        description = description.length() > 2000 ? description.substring(0, 2000) : description;
+        // truncate article description
+//        description = description.length() > 2000 ? description.substring(0, 2000) : description;
 //        if (description.contains("img src")) {
 //            int index = description.indexOf(">");
 //            String link = description.substring(0, index + 1);
